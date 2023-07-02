@@ -1,0 +1,46 @@
+.video{
+    margin-top: 50px;
+}
+
+.monitor{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+
+.direction{
+    transform: translateX(100px);
+
+}
+
+.key{
+    margin: 8px 8px;
+    border: 0.1px black solid;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+}
+.key_AD{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(-100px);
+}
+
+.video_img img{
+    width: 600px;
+    height: 400px;
+}
+
+.key_Stop{
+    margin: 8px 8px;
+    border: 0.1px black solid;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    transform: translateX(-100px);
+}

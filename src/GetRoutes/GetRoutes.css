@@ -1,0 +1,11 @@
+.homing{
+    display: flex;
+    justify-content : space-around;
+    background-color:#2B2B2B ;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+.active{
+    color: wheat;
+}
